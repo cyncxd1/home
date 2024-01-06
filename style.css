@@ -5,6 +5,7 @@ body {
   font-family: Comfortaa, monospace;
   font-size: 25px;
 }
+
 .cool {
   float: left;
   font-family: Comfortaa, monospace;
@@ -17,6 +18,7 @@ body {
 }
 
 .hamburger {
+  transition: 0.5s;
   background: transparent;
   color: white;
   width: 75px;
@@ -27,7 +29,12 @@ body {
   float: right;
   margin-top: 5px;
   border: none;
-  cursor: none;
+}
+
+.hamburger:hover {
+  background: rgba(0, 0, 0, 0.48); 0.32);
+  color: white;
+  transition: 0.5s;
 }
 
 .personalL {
@@ -58,6 +65,25 @@ p {
   text-align: left;
   color: #818181;
   text-decoration: none;
+  cursor: default;
+}
+
+.links {
+  text-align: left;
+  color: #818181;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: default;
+  transition: 0.5s;
+}
+
+.links:hover {
+  background: rgba(169, 169, 169, 0.32);
+  color: black;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
 }
 
 .aboutStuff {
@@ -66,4 +92,3 @@ p {
   padding-bottom: 5px;
   border-radius: 20px;
 }
-
