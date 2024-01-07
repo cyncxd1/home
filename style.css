@@ -18,7 +18,7 @@ body {
 }
 
 .hamburger {
-  transition: 0.5s;
+  transition: 1.2s;
   background: transparent;
   color: white;
   width: 75px;
@@ -75,7 +75,7 @@ p {
   padding: 10px;
   border-radius: 10px;
   cursor: default;
-  transition: 0.5s;
+  transition: 1.2s;
 }
 
 .links:hover {
