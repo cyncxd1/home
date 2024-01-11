@@ -15,13 +15,17 @@ body {
     margin-right: -300px;
     margin-top: 15px;
     text-indent: 20px;
-    transition: 2s;
   }
 
-  .cool:hover {
+.cyncxd {
+    color: rgba(255, 255, 255, 0.4)
+    transition: 1.2s;
+}
+
+.cyncxd:hover {
+    color: rgba(255, 255, 255, 0.4)
     transition: 0.5s;
-    color: rgb(219, 219, 219);
-  }
+}
   
   .hamburger {
     transition: 1.2s;
